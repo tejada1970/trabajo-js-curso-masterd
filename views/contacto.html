@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- configuración de la página -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="César Tejada Lorente">
+        <meta name="description" content="trabajo obligatorio de JavaScript 'sobre una tienda ficticia de informática' realizado durante el curso para desarrollo web en masterD">
+        <title>My Computer Store</title>
+        <!-- enlace FAVICON -->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!-- enlace de estilos CSS para el mapa -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" 
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""> 
+        <!-- enlace de estilos CSS para el ruteo del mapa -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+        <!-- script de enlace para javascript (para el mapa) -->
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js" ></script>
+        <!-- script de enlace para javascript (para el ruteo del mapa) -->
+        <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+        <!-- script para mapa.js -->
+        <script src="../scripts/mapa.js"></script>
+        <!-- enlaces CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/contacto.css">
+    </head>
+    <body>
+        <div class="container_general">
+            <!-- CABECERA -->
+            <header class="header image_fondo">
+                <!-- logo -->
+                <div class="container_logo">
+                    <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="6000" height="4000" title="logotipo" class="img_logo">
+                    <h1 class="color">My Computer Store</h1>
+                </div>
+                <!-- nav-menu -->
+                <nav class="nav_menu">
+                    <div class="nav_links">
+                        <!-- logo links -->
+                        <div class="container_logo_links">
+                            <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo_links">
+                            <h4 class="color">My Computer Store</h4>
+                        </div>
+                            <div class="links_pages">
+                                <a href="../index.html" target="_self" class="link_item" title="enlace a página principal">Inicio</a>
+                                <a href="./galeria.html" class="link_item" target="_self" title="enlace a página de galeria">Galeria</a>
+                                <a href="./presupuesto.html" class="link_item" target="_self" title="enlace a página de presupuesto">Presupuesto</a>
+                                <a href="./contacto.html" class="link_item color_select" target="_self" title="enlace a página de contacto">Contacto</a>
+                            </div>
+                        </div>
+                </nav>
+                <!-- boton_menu_burguer -->
+                <div class="abrirCerrar_menu button_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            
+            <!-- CUERPO -->
+            <main>
+                <section class="section_contacto">
+                    <h2>Contacto</h2>
+                    <div class="container_contacto display_flex">
+                      <div class="container_map">
+                        <div id="map"></div>
+                      </div>
+                      <div class="container_datos display_flex">
+                        <h3>Datos de la empresa:</h3>
+                        <h3 class="color">My Computer Store</h3>
+                        <p>
+                            Dirección:<br>Playa de Gandia, calle s/n
+                        </p>
+                        <p>
+                            teléfono:<br>666777888
+                        </p>
+                        <p>
+                            correo:<br>cesartejada353@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+            </main>
+
+            <!-- PIE DE PÁGINA -->
+            <footer class="image_fondo">
+                <div class="container_footer">
+                    <!-- redes sociales -->
+                    <div class="socials">
+                        <p class="titulos_footer color">Visita nuestras redes sociales</p>
+                        <div>
+                            <a href="https://es-es.facebook.com/" target="_blank" title="enlace a facebook">
+                                <img src="../assets/images/img_sociales/facebook.png" alt="facebook" width="64" height="64" title="enlace a facebook">
+                            </a>
+                            <a href="https://www.instagram.com/?hl=es" target="_blank" title="enlace a instagram">
+                                <img src="../assets/images/img_sociales/instagram.png" alt="instagram" width="64" height="64" title="enlace a instagram">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" title="enlace a youtube">
+                                <img src="../assets/images/img_sociales/youtube.png" alt="youtube" width="64" height="64" title="enlace a youtube">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- dirección -->
+                    <div>
+                        <p class="titulos_footer color">
+                            Visita nuestra tienda
+                        </p>
+                        <address>
+                            <span>Dirección:<br>Playa de Gandia, calle s/n</span>
+                        </address>
+                    </div>
+            
+                    <!-- aviso legal -->
+                    <div class="legality">
+                        <p class="titulos_footer color">
+                            Consulta
+                        </p>
+                        <p>
+                            <a href="#" class="msg_actualizacion" target="_self" title="enlace a aviso legal">Aviso Legal</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- copy -->
+                <div class="container_copy">
+                    <p class="copy">&copy; 2022 My Computer Store | Página creada por: César Tejada Lorente</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- scripts -->
+        <script src="../scripts/burguer.js"></script>
+        <script src="../scripts/javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+/*************************************************************
+********************* ESTILOS SLIDER *************************
+*************************************************************/
+.container_slider{width: 100%; overflow: hidden; position: relative;
+    border-top: 0.25rem solid rgb(255, 165, 0); 
+    border-bottom: 0.25rem solid rgb(255, 165, 0); padding: 0.625rem 0;}
+
+.slider{
+    display: flex;
+    /*
+        aquí tengo quee añadir un 100% por cada imagen que quisiera poner de más en el 'slider' o
+        quitar un 100% por cada imagen que elimine del 'slider'.
+    */
+    width: 800%;
+    /*
+        para que sigua dejando en primer lugar a la 1ª imagen del 'slider', despúes de haber pasado
+        la última a la 1ª desde 'slider.js', asi la 1ª real sigue manteniendo su posicion original.
+    */
+    margin-left: -100%;
+}
+.section_slider h2 {margin: 5% 0;}
+.slider_section{width: 100%;}
+.slider_img{display: block; width: 100%; height: 100%; max-width: 100vw; max-height: 35vh; object-position: center; object-fit: fill;}
+.slider_btn{
+    background: rgba(0, 0, 0, .6); position: absolute; font-size: 30px; font-weight: bold; cursor: pointer;
+    font-family: monospace; /* con el tamaño, el bold y este family, quedan como si fueran iconos */
+    width: 2.5rem; height: 2.5rem; top: 50%; /* con el top 50% y el transform, alineamos en el centro del 'slider' a los btn */
+    transform: translateY(-50%); /* para centralos de manera vertical */
+    text-align: center; /* con esto ya queda todo centrado del todo */
+    border-radius: 50%;
+}
+.slider_btn:hover{background: rgb(255, 255, 255); color: rgb(0, 0, 0);}
+.slider_btn--left{left: 0.625rem;}
+.slider_btn--right{right: 0.625rem; /* con esta regla, se va el btn derecho a la otra parte derecha del 'slider' y asi se separan los btn */}
+.cover {object-fit: cover;}
+
+/*************************************************************
+************************ MEDIA QUERYS ************************
+*************************************************************/
+@media screen and (min-width: 768px) {
+    .slider_img{max-height: 60vh;}
+}
+@media screen and (min-width: 1440px) {
+    .section_slider h2 {margin: 2% 0;}
+    .container_slider{width: 90%; margin: 0 auto;}
+    .slider_img{max-height: 70vh;}
+    .fill {object-fit: fill;}
+}
+@media screen and (min-width: 1600px) {
+    .container_slider{width: 80%; margin: 0 auto;}
+}

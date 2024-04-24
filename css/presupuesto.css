@@ -1,0 +1,54 @@
+/*************************************************************
+********************* ESTILOS PRESUPUESTO ********************
+*************************************************************/
+.section_presupuesto{height: 100%;}
+
+.container_presupuesto{
+    width: 90%; margin: 5% auto; border: 0.25rem solid rgb(255, 165, 0); padding: 0.5%;
+    background-color: rgb(0, 0, 0);
+}
+
+form {background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding-bottom: 0.625rem;}
+
+input {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-weight: 700; padding: 0.125rem 0;}
+
+.display_flex {flex-direction: column;}
+
+.form-control label {width: 100%; display: block; text-align: center;}
+
+fieldset {margin: 0 0.625rem;}
+
+fieldset div {margin: 0.625rem 0;}
+
+legend {color: rgb(0, 0, 255);}
+
+#plazo_entrega {max-width: 9.375rem; min-width: 9.375rem;}
+
+.line {line-height: 3rem;}
+
+#list {padding-top: 0.625rem;}
+
+.botones {width: 50%; text-align: center;}
+.botones input:hover {transform: scale(1.1);}
+#btn_submit {background-color: rgb(255, 165, 0); color: rgb(0, 0, 0); border: 0.125rem solid rgb(0, 0, 0);
+    margin: 0 1%; padding: 0.3125rem;
+}
+#btn_reset {
+    background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border: 0.125rem solid rgb(255, 165, 0);
+    margin-top: 0.625rem; padding: 0.3125rem;
+}
+
+/*************************************************************
+************************ MEDIA QUERYS ************************
+*************************************************************/
+@media screen and (min-width: 768px) {
+    .container_presupuesto{margin: 3% auto;}
+    .section_presupuesto h2 {margin: 2% 0;}
+}
+@media screen and (min-width: 1440px) {
+    .container_presupuesto{margin: 2% auto;}
+    .display_flex {flex-direction: row; gap: 1.25rem; /* 20px */}
+}
+@media screen and (min-width: 1600px) {
+    .container_presupuesto{width: 70%;}
+}

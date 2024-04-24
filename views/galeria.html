@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- configuración de la página -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="César Tejada Lorente">
+        <meta name="description" content="trabajo obligatorio de JavaScript 'sobre una tienda ficticia de informática' realizado durante el curso para desarrollo web en masterD">
+        <title>My Computer Store</title>
+        <!-- enlace script a libreria jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- enlace FAVICON -->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!-- enlaces CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/galeria.css">
+    </head>
+    <body>
+        <div class="container_general">
+            <!--
+            aquí, vamos a crear el div 'modal' que se mostrará para el efecto 'modal' de las imagenes, lo ocultaremos en css,
+            hasta que hagamos 'click' en una de las imagenes y se ejecutará el codigo de 'modal.js', la (src="") de la imagen
+            se queda vacia, ya que le vamos a pasar la ruta de la imagen desde 'modal.js' cuando hagamos 'click' sobre ella.
+            en 'css' le damos las propiedades a esta 'clase modal'.
+            -->
+            <div class="modal" id="modal">
+                <div class="modal_content">
+                <img src="../assets/images/img_gallery/gallery_1.jpg" alt="imagen de galeria de productos" width="6000" height="3376" class="modal_img" id="modal_img">
+                </div>
+                <div class="modal_boton" id="modal_boton">X</div>
+            </div>
+
+            <!-- CABECERA -->
+            <header class="header image_fondo">
+                <!-- logo -->
+                <div class="container_logo">
+                    <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo">
+                    <h1 class="color">My Computer Store</h1>
+                </div>
+                <!-- nav-menu -->
+                <nav class="nav_menu">
+                    <div class="nav_links">
+                        <!-- logo links -->
+                        <div class="container_logo_links">
+                            <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo_links">
+                            <h4 class="color">My Computer Store</h4>
+                        </div>
+                        <div class="links_pages">
+                            <a href="../index.html" target="_self" class="link_item" title="enlace a página principal">Inicio</a>
+                            <a href="./galeria.html" class="link_item color_select" target="_self" title="enlace a página de galeria">Galeria</a>
+                            <a href="./presupuesto.html" class="link_item" target="_self" title="enlace a página de presupuesto">Presupuesto</a>
+                            <a href="./contacto.html" class="link_item" target="_self" title="enlace a página de contacto">Contacto</a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- boton_menu_burguer -->
+                <div class="abrirCerrar_menu button_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            
+            <!-- CUERPO -->
+            <main>
+                <section class="section_galeria">
+                    <h2>Galeria</h2>
+                    <div class="gallery">
+                      <div class="container container_flex">
+                          <div class="column">
+                            <img src="../assets/images/img_gallery/gallery_1.jpg" alt="img galeria de productos" width="1280" height="720" class="gallery_img gallery_img_big">
+                            <img src="../assets/images/img_gallery/gallery_2.png" alt="img galeria de productos" width="640" height="506" class="gallery_img gallery_img_small">
+                          </div>
+                          <div class="column">
+                            <img src="../assets/images/img_gallery/gallery_3.jpg" alt="img galeria de productos" width="640" height="366" class="gallery_img gallery_img_small">
+                            <img src="../assets/images/img_gallery/gallery_4.jpg" alt="img galeria de productos" width="1280" height="720" class="gallery_img gallery_img_big">
+                          </div>
+                          <div class="column">
+                            <img src="../assets/images/img_gallery/gallery_5.jpg" alt="img galeria de productos" width="1280" height="853" class="gallery_img gallery_img_big">
+                            <img src="../assets/images/img_gallery/gallery_6.jpg" alt="img galeria de productos" width="1280" height="748" class="gallery_img gallery_img_small">
+                          </div>
+                          <div class="column">
+                            <img src="../assets/images/img_gallery/gallery_7.jpg" alt="img galeria de productos" width="640" height="360" class="gallery_img gallery_img_small">
+                            <img src="../assets/images/img_gallery/gallery_8.jpg" alt="img galeria de productos" width="1280" height="905" class="gallery_img gallery_img_big">
+                          </div>
+                      </div>
+                  </div>
+                  </section>
+            </main>
+
+            <!-- PIE DE PÁGINA -->
+            <footer class="image_fondo">
+                <div class="container_footer">
+                    <!-- redes sociales -->
+                    <div class="socials">
+                        <p class="titulos_footer color">Visita nuestras redes sociales</p>
+                        <div>
+                            <a href="https://es-es.facebook.com/" target="_blank" title="enlace a facebook">
+                                <img src="../assets/images/img_sociales/facebook.png" alt="facebook" width="64" height="64" title="enlace a facebook">
+                            </a>
+                            <a href="https://www.instagram.com/?hl=es" target="_blank" title="enlace a instagram">
+                                <img src="../assets/images/img_sociales/instagram.png" alt="instagram" width="64" height="64" title="enlace a instagram">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" title="enlace a youtube">
+                                <img src="../assets/images/img_sociales/youtube.png" alt="youtube" width="64" height="64" title="enlace a youtube">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- dirección -->
+                    <div>
+                        <p class="titulos_footer color">
+                            Visita nuestra tienda
+                        </p>
+                        <address>
+                            <span>Dirección:<br>Playa de Gandia, calle s/n</span>
+                        </address>
+                    </div>
+            
+                    <!-- aviso legal -->
+                    <div class="legality">
+                        <p class="titulos_footer color">
+                            Consulta
+                        </p>
+                        <p>
+                            <a href="#" class="msg_actualizacion" target="_self" title="enlace a aviso legal">Aviso Legal</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- copy -->
+                <div class="container_copy">
+                    <p class="copy">&copy; 2022 My Computer Store | Página creada por: César Tejada Lorente</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- scripts -->
+        <script src="../scripts/burguer.js"></script>
+        <script src="../scripts/javascript.js"></script>
+        <script src="../scripts/modal.js"></script>
+        <script src="../scripts/views.jQuery.js"></script>
+    </body>
+</html>

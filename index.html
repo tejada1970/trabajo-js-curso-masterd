@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="César Tejada Lorente">
+        <meta name="description" content="trabajo obligatorio de JavaScript 'sobre una tienda ficticia de informática' realizado durante el curso para desarrollo web en masterD">
+        <title>My Computer Store</title>
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/slider.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body id="body">
+        <div class="container_general">
+            <header class="header image_fondo">
+                <div class="container_logo">
+                    <img src="./assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo">
+                    <h1 class="color">My Computer Store</h1>
+                </div>
+                <nav class="nav_menu">
+                    <div class="nav_links">
+                        <div class="container_logo_links">
+                            <img src="./assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo_links">
+                            <h3 class="color">My Computer Store</h3>
+                        </div>
+                        <div class="nav_links_flex">
+                            <div class="links_pages">
+                                <a href="index.html" class="link_item color_select" target="_self" title="enlace a página principal">Inicio</a>
+                                <a href="./views/galeria.html" class="link_item" target="_self" title="enlace a página de galeria">Galeria</a>
+                                <a href="./views/presupuesto.html" class="link_item" target="_self" title="enlace a página de presupuesto">Presupuesto</a>
+                                <a href="./views/contacto.html" class="link_item" target="_self" title="enlace a página de contacto">Contacto</a>
+                            </div>
+                            <div class="separator"></div>
+                            <div id="enlaces_internos" class="links_internos">
+                                <a href="#id_slider" class="link_item color_select" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/subir.png" alt="img flecha subir" title="Inicio" width="24" height="24" class="fondo_enlace"></a>
+                                <a href="#footer" class="link_item" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/bajar.png" alt="img flecha bajar" title="Pie de Página" width="24" height="24" class="fondo_enlace"></a>
+                                <a href="#productos" class="link_item" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/productos.png" alt="img enlace productos" title="productos" width="24" height="24" class="fondo_enlace"></a>
+                                <a href="#about" class="link_item" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/about.png" alt="img enlace about" title="about" width="24" height="24" class="fondo_enlace"></a>
+                                <a href="#noticias" class="link_item" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/noticias.png" alt="img enlace noticias" title="noticias" width="24" height="24" class="fondo_enlace"></a>
+                                <a href="#servicios" class="link_item" target="_self">
+                                    <img src="./assets/images/img_enlaces_internos/servicios.png" alt="img enlace servicios" title="servicios" width="24" height="24" class="fondo_enlace"></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- burguer -->
+                <div class="abrirCerrar_menu button_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <main>
+                <section id="id_slider" class="section_slider">
+                    <h2>¿ Que te llevamos hoy ?</h2>
+                    <div class="container_slider">
+                        <div class="slider" id="slider">
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_1.png" alt="computer img slider" width="1920" height="1440" class="slider_img cover fill">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_2.jpg" alt="computer img slider" width="1280" height="672" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_3.jpg" alt="computer img slider" width="1280" height="570" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_4.jpg" alt="computer img slider" width="1280" height="640" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_5.jpg" alt="computer img slider" width="1280" height="763" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_6.png" alt="computer img slider" width="1280" height="853" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_7.jpg" alt="computer img slider" width="1280" height="960" class="slider_img">
+                            </div>
+                            <div class="slider_section">
+                                <img src="./assets/images/img_slider/slider_8.jpg" alt="computer img slider" width="1280" height="853" class="slider_img">
+                            </div>
+                        </div>
+                        <div class="slider_btn slider_btn--right" id="btn_right">&#62;</div>
+                        <div class="slider_btn slider_btn--left" id="btn_left">&#60;</div>
+                    </div>
+                </section>
+
+                <section id="productos" class="section_productos display_flex">>
+                    <h2>Nuestros Productos</h2>
+                    <div class="container_productos display_flex">
+                        <aside class="aside display_flex image_fondo">
+                            <div class="display_flex">
+                                <h4>¿HAS PENSADO EN RENOVAR TUS PRODUCTOS?</h4>
+                                <p>
+                                    <br>
+                                    has venido al mejor sitio, elige lo que más
+                                    te guste y LLÉVATELO !!
+                                </p>
+                                <div class="container_img_aside">
+                                    <img src="./assets/images/img_productos/producto_aside.jpg" alt="chica joven en su escritorio con el ordenador" width="640" height="374" class="aside_img">
+                                </div>
+                                <h4 class="borde_hoja">!! Compra ahora y ahorra hasta un 25% !!</h4>
+                            </div>
+                            <div class="display_flex">
+                                <h4>TODO LO QUE NECESITAS, LO TIENES AQUÍ</h4>
+                                <div class="container_img_aside">
+                                    <img src="./assets/images/img_productos/producto_aside_2.jpg" alt="articulos de informatica" width="640" height="425" class="aside_img">
+                                </div>
+                            </div>
+                        </aside>
+                        <div class="container_cards display_flex">
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_1.png" alt="computer img producto" width="640" height="526" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Monitor LG 23"</p>
+                                    <p>Full HD - alta calidad</p>
+                                    <p>Precio: 260€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_2.png" alt="computer img producto" width="538" height="640" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Auriculares SX</p>
+                                    <p>Stereo - alta calidad</p>
+                                    <p>Precio: 25€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_3.jpg" alt="computer img producto" width="640" height="523" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Ratón PC</p>
+                                    <p> suave - alta calidad</p>
+                                    <p>Precio: 15€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_4.png" alt="computer img producto" width="421" height="640" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>PC-Starts</p>
+                                    <p>Completo - Full HD</p>
+                                    <p>Precio: 2000€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_5.png" alt="computer img producto" width="640" height="598" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Laptop LG 15"</p>
+                                    <p>Led luminoso - extra</p>
+                                    <p>Precio: 600€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_6.jpg" alt="computer img producto" width="640" height="425" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Auriculares Móvil</p>
+                                    <p>Stereo - alta calidad</p>
+                                    <p>Precio: 15€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_7.png" alt="computer img producto" width="640" height="411" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Impresora HD</p>
+                                    <p>Color - alta calidad</p>
+                                    <p>Precio: 1260€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_8.jpg" alt="computer img producto" width="640" height="425" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Tablet</p>
+                                    <p>Extraplana - alta calidad</p>
+                                    <p>Precio: 200€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_9.jpg" alt="computer img producto" width="640" height="427" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Gafas Virtuales</p>
+                                    <p>Alta calidad</p>
+                                    <p>Precio: 1500€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_10.png" alt="computer img producto" width="478" height="640" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Camara con tripode</p>
+                                    <p>Alta calidad</p>
+                                    <p>Precio: 1850€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_11.png" alt="computer img producto" width="640" height="296" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Móvil LG</p>
+                                    <p>Alta calidad</p>
+                                    <p>Precio: 390€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_12.jpg" alt="computer img producto" width="640" height="495" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Placa Base</p>
+                                    <p>Alta calidad</p>
+                                    <p>Precio: 1290€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_13.png" alt="computer img producto" width="640" height="551" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Camara Fotos</p>
+                                    <p>Full HD - alta calidad</p>
+                                    <p>Precio: 960€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_14.png" alt="computer img producto" width="640" height="437" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Laptop LG "15"</p>
+                                    <p>Alta calidad</p>
+                                    <p>Precio: 290€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_15.png" alt="computer img producto" width="640" height="320" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>Teclado Extraplano</p>
+                                    <p>Suave - Alta calidad</p>
+                                    <p>Precio: 40€</p>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="cards_image">
+                                    <img src="./assets/images/img_productos/producto_16.jpg" alt="computer img producto" width="640" height="384" class="card_img">
+                                </div>
+                                <div class="cards_paragraph">
+                                    <p>USB "House"</p>
+                                    <p>64GB - Alta calidad</p>
+                                    <p>Precio: 350€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" class="section_about display_flex image_fondo">
+                    <h2 class="color">About</h2>
+                    <div class="about display_flex">
+                        <div class="container_about_img">
+                            <img src="./assets/images/img_about/Cesar.jpg" alt="mi foto" width="1980" height="2640" title="César Tejada Lorente" class="about_img">
+                        </div>
+                        <p>
+                            Hola a todos. Soy César.<br><br>
+                            Hace mucho tiempo que estudio programación por mi cuenta, pero me faltaba hacerlo de una forma correcta.
+                            Así que en Febrero de este año 2022, decidí hacerlo de forma oficial y profesional en el
+                            <span class="color">Instituto Tecnologico Master-D</span>, gracias a los conocimientos adquiridos hasta el momento
+                            y a mi gran pasión por la programación he podido realizar
+                            este trabajo.<br><br>
+                            Se trata de un sitio web imaginario, de venta de productos informáticos, en los
+                            que hay varias secciones y páginas.<br><br> Entre el contenido de esta página cabe destacar:
+                            una sección de noticias (donde tengo que importar noticias y mostrarlas en esta página, para ello utilizaré un lector RSS), una
+                            sección de prodúctos, una sección para Slider, una seccion de servicios al cliente 
+                            y esta misma sección sobre mi. He creado una página de presupuesto, que contiene un formulario con
+                            validaciones para la compra de productos, en el que el precio final variará según las opciones que eliga el cliente/usuario.
+                            Una página de contacto, donde está la dirección y datos de la empresa, e incluye un mapa interactivo, que trazará
+                            una ruta desde la ubicación donde se encuéntre el usuario hasta la ubicación de la empresa. Y por supuesto he creado una página de
+                            galeria muy chula.<br><br>Como detalle extra, he puesto un apartado de enlaces en el navegador, para navegar entre secciones
+                            en la página de inicio. La navegación es suave, con la detección de scroll entre secciones, marcando en los enlaces la seccion en la que
+                            te encuentras en cada momento. Decir támbien, que lo he hecho totalmente<span class="color"> Responsive - Mobile First</span>.<br><br>
+                            En fin, espero que os guste este ejemplo de sitio web que he creado con las enseñanzas de <span class="color">Master-D</span>. Un Saludo !!
+                        </p>
+                    </div>
+                </section>
+
+                <section id="noticias" class="section_noticias">
+                    <h2>Noticias de actualidad</h2>
+                    <div class="noticias display_flex">
+                        <div>
+                            <button onclick="showRSS('zdnet')">Mostrar noticias</button>
+                        </div>
+                        <div>
+                            <p id="contenedor_noticias"></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="servicios" class="section_servicios display_flex">
+                    <h2>Nuestros Servicios</h2>
+                    <div class="card_items_service display_flex">
+                        <div class="cards_service display_flex">
+                            <div class="cards_ilustracion display_flex">
+                                <img src="./assets/images/img_ilustraciones/ilustracion_1.png" alt="computer ilustracion" width="500" height="500" class="img_ilustration">
+                                <a href="#" target="_self" class="msg_actualizacion" title="enlace a Análisis de Sistemas">Análisis de Sistemas</a>
+                            </div>
+                            <div class="cards_ilustracion display_flex">
+                                <img src="./assets/images/img_ilustraciones/ilustracion_2.png" alt="computer ilustracion" width="500" height="500" class="img_ilustration">
+                                <a href="#" target="_self" class="msg_actualizacion" title="enlace a Sopórte Técnico">Sopórte Técnico</a>
+                            </div>
+                        </div>
+                        <div class="cards_service display_flex">
+                            <div class="cards_ilustracion display_flex">
+                                <img src="./assets/images/img_ilustraciones/ilustracion_3.png" alt="computer ilustracion" width="500" height="500" class="img_ilustration">
+                                <a href="#" target="_self" class="msg_actualizacion" title="enlace a Instalación de Redes">Instalación de Redes</a>
+                            </div>
+                            <div class="cards_ilustracion display_flex">
+                                <img src="./assets/images/img_ilustraciones/ilustracion_4.png" alt="computer ilustracion" width="500" height="500" class="img_ilustration">
+                                <a href="#" target="_self" class="msg_actualizacion" title="enlace a Programación para Empresas">Programación para Empresas</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer" class="image_fondo">
+                <div class="container_footer">
+                    <div class="socials">
+                        <p class="titulos_footer color">Visita nuestras redes sociales</p>
+                        <div>
+                            <a href="https://es-es.facebook.com/" target="_blank" title="enlace a facebook">
+                                <img src="./assets/images/img_sociales/facebook.png" alt="facebook" width="64" height="64" title="enlace a facebook">
+                            </a>
+                            <a href="https://www.instagram.com/?hl=es" target="_blank" title="enlace a instagram">
+                                <img src="./assets/images/img_sociales/instagram.png" alt="instagram" width="64" height="64" title="enlace a instagram">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" title="enlace a youtube">
+                                <img src="./assets/images/img_sociales/youtube.png" alt="youtube" width="64" height="64" title="enlace a youtube">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- dirección -->
+                    <div>
+                        <p class="titulos_footer color">
+                            Visita nuestra tienda
+                        </p>
+                        <address>
+                            <span>Dirección:<br>Playa de Gandia, calle s/n</span>
+                        </address>
+                    </div>
+                    <!-- aviso legal -->
+                    <div class="legality">
+                        <p class="titulos_footer color">
+                            Consulta
+                        </p>
+                        <p>
+                            <a href="#" class="msg_actualizacion" target="_self" title="enlace a aviso legal">Aviso Legal</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- copy -->
+                <div class="container_copy">
+                    <p class="copy">&copy; 2022 My Computer Store | Página creada por: César Tejada Lorente</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- scripts -->
+        <script src="./scripts/slider.js"></script>
+        <script src="./scripts/burguer.js"></script>
+        <script src="./scripts/javascript.js"></script>
+        <script src="./scripts/scroll.js"></script>
+        <script src="./scripts/noticias.js"></script>
+    </body>
+</html>

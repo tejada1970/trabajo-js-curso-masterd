@@ -1,0 +1,23 @@
+/*************************************************************
+********************* ESTILOS CONTACTO ***********************
+*************************************************************/
+.container_contacto{
+    width: 90%; height: 100%; margin: 2% auto; padding: 1.5%;
+    flex-direction: column-reverse; gap: 5%; font-family: monospace, sans-serif;
+    font-weight: bold; line-height: 3rem;
+}
+.container_datos {flex-direction: column; margin-bottom: 5%; width: 100%; color: rgb(0, 0, 0);}
+
+.container_map {width: 100%; height: 28.125rem; color: rgb(0, 0, 0);}
+
+#map {height: 25rem;}
+
+.container_datos p {text-align: center;}
+
+/*************************************************************
+***************** MEDIA QUERYS (responsive) ******************
+*************************************************************/
+/* @media 1024px */
+@media screen and (min-width: 1024px){
+    .container_contacto{justify-content: space-between; flex-direction: row;}
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- configuración de la página -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="César Tejada Lorente">
+        <meta name="description" content="trabajo obligatorio de JavaScript 'sobre una tienda ficticia de informática' realizado durante el curso para desarrollo web en masterD">
+        <title>My Computer Store</title>
+        <!-- enlace FAVICON -->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!-- enlaces CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/presupuesto.css">
+    </head>
+    <body>
+        <div class="container_general">
+            <!-- CABECERA -->
+            <header class="header image_fondo">
+                <!-- logo -->
+                <div class="container_logo">
+                    <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo">
+                    <h1 class="color">My Computer Store</h1>
+                </div>
+                <!-- nav-menu -->
+                <nav class="nav_menu">
+                    <div class="nav_links">
+                        <!-- logo links -->
+                        <div class="container_logo_links">
+                            <img src="../assets/images/img_logo/logo.jpg" alt="imagen logotipo" width="640" height="341" title="logotipo" class="img_logo_links">
+                            <h4 class="color">My Computer Store</h4>
+                        </div>
+                            <div class="links_pages">
+                                <a href="../index.html" target="_self" class="link_item" title="enlace a página principal">Inicio</a>
+                                <a href="./galeria.html" class="link_item" target="_self" title="enlace a página de galeria">Galeria</a>
+                                <a href="./presupuesto.html" class="link_item color_select" target="_self" title="enlace a página de presupuesto">Presupuesto</a>
+                                <a href="./contacto.html" class="link_item" target="_self" title="enlace a página de contacto">Contacto</a>
+                            </div>
+                        </div>
+                </nav>
+                <!-- boton_menu_burguer -->
+                <div class="abrirCerrar_menu button_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+
+            <!-- CUERPO -->
+            <main>
+                <section class="section_presupuesto">
+                    <h2>Presupuesto</h2>
+                    <div class="container_presupuesto">
+                      <form action="#" method="GET" target="_self" name="form_presupuesto" id="form_presupuesto">
+                        <fieldset class="form-control display_flex">
+                          <legend class="datos">Datos:</legend>
+                          <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" class="valida">
+                          </div>
+                          <div>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" class="valida">
+                          </div>
+                          <div>
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" id="telefono" name="telefono" class="valida">
+                          </div>
+                          <div>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" class="valida">
+                          </div>
+                        </fieldset>
+                        <fieldset>
+                          <legend>Presupuesto:</legend>
+                          <div class="display_flex">
+                            <label for="producto_select" class="line">Elige un producto:</label>
+                            <select name="producto_select" id="producto_select">
+                              <option value="">Selecciona un producto</option>
+                              <option value="producto1">producto 1 - 150€</option>
+                              <option value="producto2">producto 2 - 90€</option>
+                              <option value="producto3">producto 3 - 25.90€</option>
+                            </select>
+                          </div>
+                          <div class="display_flex">
+                            <label for="plazo_entrega" class="line">Plazo de entrega:</label>
+                            <input type="number" name="plazo_entrega" id="plazo_entrega" value="30" step="30" max="90" min="30">
+                            <p class="line">Días</p>
+                          </div>
+                          <div class="display_flex">
+                              <div>
+                                <p>Elige los extras para el producto:</p>
+                              </div>
+                              <div>
+                                <input type="checkbox" id="extraBase" name="extraBase" value="extraBase" class="checkbox">
+                                <label class="extras" for="extraBase">Base de apoyo 15€</label>
+                              </div>
+                              <div>
+                                <input type="checkbox" id="extraFunda" name="extraFunda" value="extraFunda" class="checkbox">
+                                <label class="extras" for="extraFunda">Funda producto 10€</label>
+                              </div>
+                              <div>
+                                <input type="checkbox" id="extraEstuche" name="extraEstuche" value="extraEstuche" class="checkbox">
+                                <label class="extras" for="extraEstuche">Estuche antigolpes 25€</label>
+                              </div>
+                              <div>
+                                <input type="checkbox" id="extraColor" name="extraColor" value="extraColor" class="checkbox">
+                                <label class="extras" for="extraColor">Color personalizado 20€</label>
+                              </div>
+                          </div>
+                          <div class="display_flex">
+                            <label for="pvpFinal" class="line">pvp/€ Presupuesto estimado:</label>
+                            <input type="text" id="pvpFinal" name="pvpFinal" readonly>
+                            <label id="list"></label>
+                          </div>
+                        </fieldset>
+                        <fieldset>
+                          <legend>Aceptación de Condiciones y envio:</legend>
+                          <div class="display_flex">
+                            <div class="privacidad">
+                              <label for="privacidad" class="label_priv">He leido la política de privacidad</label>
+                              <input type="checkbox" id="privacidad" name="privacidad">
+                            </div>
+                            <div class="botones">
+                              <input id="btn_submit" type="submit" value="Enviar Formulario">
+                              <input id="btn_reset" type="reset" value="Borrar Formulario">
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </section>
+            </main>
+
+            <!-- PIE DE PÁGINA -->
+            <footer class="image_fondo">
+                <div class="container_footer">
+                    <!-- redes sociales -->
+                    <div class="socials">
+                        <p class="titulos_footer color">Visita nuestras redes sociales</p>
+                        <div>
+                            <a href="https://es-es.facebook.com/" target="_blank" title="enlace a facebook">
+                                <img src="../assets/images/img_sociales/facebook.png" alt="facebook" width="64" height="64" title="enlace a facebook">
+                            </a>
+                            <a href="https://www.instagram.com/?hl=es" target="_blank" title="enlace a instagram">
+                                <img src="../assets/images/img_sociales/instagram.png" alt="instagram" width="64" height="64" title="enlace a instagram">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" title="enlace a youtube">
+                                <img src="../assets/images/img_sociales/youtube.png" alt="youtube" width="64" height="64" title="enlace a youtube">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- dirección -->
+                    <div>
+                        <p class="titulos_footer color">
+                            Visita nuestra tienda
+                        </p>
+                        <address>
+                            <span>Dirección:<br>Playa de Gandia, calle s/n</span>
+                        </address>
+                    </div>
+            
+                    <!-- aviso legal -->
+                    <div class="legality">
+                        <p class="titulos_footer color">
+                            Consulta
+                        </p>
+                        <p>
+                            <a href="#" class="msg_actualizacion" target="_self" title="enlace a aviso legal">Aviso Legal</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- copy -->
+                <div class="container_copy">
+                    <p class="copy">&copy; 2022 My Computer Store | Página creada por: César Tejada Lorente</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- scripts -->
+        <script src="../scripts/burguer.js"></script>
+        <script src="../scripts/javascript.js"></script>
+       <script src="../scripts/presupuesto.js"></script>
+    </body>
+</html>

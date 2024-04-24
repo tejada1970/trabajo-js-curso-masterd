@@ -1,0 +1,61 @@
+/*************************************************************
+*********************** ESTILOS GALERIA **********************
+*************************************************************/
+img{display: block; width: 100%; max-width: 100%;}
+
+.gallery {margin-top: 0.625rem;}
+
+.container_flex{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+
+.column{width: 100%;}
+
+.column img {padding: 0.3125rem;}
+
+.gallery_img{object-fit: cover; margin-bottom: 0.625em; cursor: pointer; transition: 1s;}
+.gallery_img:hover{transition: 1s; transform: scale(1.1); opacity: 0.6;}
+.gallery_img_big, .gallery_img_small {height: 13.75rem;}
+
+/*
+    el 'modal' esta oculto desde 'viewsjQuery.js' con 'fadeOut', le doy la clase 'open' desde 'modal.js'
+    y desde 'viewsjQuery.js' lo vuelvo a mostrar con 'fadeIn'.
+*/
+.modal{
+    /* con fixed, aunque se haga scrool y se mueva toda la pagina, el modal permanecera fijo mostrando la imagen */
+    position: fixed; top: 0; left: 0; z-index: 100000;
+    width: 100%; min-height: 100vh; background: rgba(0, 0, 0, .9);
+}
+.modal_content{display: flex; justify-content: center; align-items: center; height: 100vh;}
+.modal_img{width: 90%; height: 35%; object-fit: cover; object-position: center; outline: 0.125rem solid rgb(255, 165, 0);}
+.modal_boton{
+    color: rgb(255, 255, 255); background: rgb(255, 165, 0); font-size: 2.4em; font-family: initial;
+    position: absolute; top: 0.625rem; right: 0.625rem; cursor: pointer; width: 3.125rem; height: 3.125rem;
+    line-height: 3.125rem; text-align: center; border-radius: 50%;
+}
+.modal_open{display: block;}
+
+.container_footer .socials div {display: flex; justify-content: center; text-align: center; flex-wrap: wrap;} 
+
+
+/*************************************************************
+************************ MEDIA QUERYS ************************
+*************************************************************/
+@media screen and (min-width: 768px) {
+    .section_galeria h2 {margin: 2% 0;}
+    .gallery {padding: 1.25rem; padding-top: 0;}
+    .gallery_img_big{height: 23.125rem; /* 370px */}
+    .gallery_img_small{height: 13.75rem; /* 220px */}
+    .column{width: 49%;}
+    .modal_img{width: 85%; height: 60%; object-fit: fill}
+}
+@media screen and (min-width: 1024px) {
+    .modal_img{height: 75%;}
+}
+@media screen and (min-width: 1440px) {
+    .gallery {width: 85%; margin: 0 auto;}
+    .modal_img{height: 85%;}
+}
+@media screen and (min-width: 1600px) {
+    .section_galeria h2 {margin: 1.5% 0;}
+    .gallery {width: 70%;}
+    .modal_img{width: 85%;}
+}
