@@ -13,7 +13,7 @@ No utiliza base de datos: Es importante destacar que este proyecto no cuenta con
 
 Requerimientos del servidor: Para su correcto funcionamiento, el proyecto debe ser ejecutado desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es esencial para que ciertas funcionalidades, como la sección de noticias que utiliza peticiones, puedan ser mostradas correctamente.
 
-## Descarga y Configuración en Entorno Local:
+## Descarga y Configuración en Entorno Local
 
 **Requisitos:**
 Tener instalado en tu PC: Un servidor local de tu preferencia (Se recomienda XAMPP).
