@@ -1,37 +1,34 @@
-# trabajo-js-curso-masterd
-Este proyecto es un trabajo obligatorio que realizé en 'Curso Superior en programación de páginas Web' matriculado en Febrero de 2022 en: Centro MasterD Valencia, perteneciente a (Instituto Tecnológico de MasterD / Zaragoza).  Representa una tienda ficticia de informática y fue entregado el: 13/07/2022.
+## Statement of Work
 
-## Enunciado del Trabajo
+You can find the full job statement [here](JS Statement.pdf).
 
-Puedes encontrar el enunciado completo del trabajo [aquí](Enunciado JS.pdf).
+It is important to note that this is a fictional project used for educational and practice purposes.
 
-Es importante tener en cuenta que se trata de un proyecto ficticio utilizado con propósitos educativos y de práctica.
+## Characteristics
 
-## Características
+Does not use a database: It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
 
-No utiliza base de datos: Es importante destacar que este proyecto no cuenta con una base de datos. Los datos recopilados en el formulario de presupuesto no se almacenan de forma permanente en ningún sitio. Se trata simplemente de una simulación de formulario.
+Server requirements: For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
 
-Requerimientos del servidor: Para su correcto funcionamiento, el proyecto debe ser ejecutado desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es esencial para que ciertas funcionalidades, como la sección de noticias que utiliza peticiones, puedan ser mostradas correctamente.
+## Download and Configuration in Local Environment
 
-## Descarga y Configuración en Entorno Local
+**Requirements:**
+Have installed on your PC: A local server of your choice (XAMPP is recommended).
 
-**Requisitos:**
-Tener instalado en tu PC: Un servidor local de tu preferencia (Se recomienda XAMPP).
+**Steps:**
 
-**Pasos:**
+1. **Download the Project:**
+Click the "Code" button in this repository and select "Download ZIP".
 
-1. **Descarga el Proyecto:**
-Haz clic en el botón "Code" en este repositorio y selecciona "Download ZIP".
+2. **Project Extraction:**
+Create a new folder on your desktop.
+Go to the downloads folder and drag the downloaded ZIP file to the new folder to extract it.
 
-2. **Extracción del Proyecto:**
-Crea una nueva carpeta en tu escritorio.
-Ve a la carpeta de descargas y arrastra el archivo ZIP descargado a la nueva carpeta para extraerlo.
+3. **Location on Local Server:**
+Copy the extracted project folder and paste it into the folder on your local server. For example, in XAMPP, the folder is usually xampp/htdocs.
 
-3. **Ubicación en el Servidor Local:**
-Copia la carpeta del proyecto que has extraido y pégala en la carpeta de tu servidor local. Por ejemplo, en XAMPP, la carpeta usualmente es xampp/htdocs.
+4. **Start Local Server:**
+On Windows, access the XAMPP Control Panel from the start menu (Start > XAMPP > XAMPP Control Panel) and run it as administrator to ensure you have the necessary permissions. Start Apache from the control panel by pressing Start.
 
-4. **Iniciar Servidor Local:**
-En Windows, accede al Panel de Control de XAMPP desde el menú de inicio (Inicio > XAMPP > XAMPP Control Panel) y ejecútalo como administrador para asegurarte de tener los permisos necesarios. Inicia Apache desde el panel de control pulsando Start.
-
-5. **Visualización del Proyecto:**
-Abre tu navegador web y navega a (localhost/pon aquí el nombre de la carpeta del proyecto extraido), esto cargará el proyecto en tu navegador y podrás interactuar con él localmente. Cuando se haya mostrado el proyecto, es posible que no se muestren en principio los iconos en la parte superior derecha para la navegación entre secciones de la página de inicio. Para ello, una vez se muestre el proyecto actualiza y refresca el navegador en primer lugar y aparecerán los iconos en su sitio. Este es un pequeño problemilla que tengo que solucionar cuando pueda.
+5. **Project View:**
+Open your web browser and navigate to (localhost/put here the folder name of the extracted project), this will load the project in your browser and you can interact with it locally. Once the project has been displayed, the icons at the top right for navigation between sections of the home page may not initially be displayed. To do this, once the project is displayed, update and refresh the browser first and the icons will appear in their place. This is a small problem that I have to solve when I can.
