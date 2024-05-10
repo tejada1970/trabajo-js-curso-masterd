@@ -1,6 +1,6 @@
 ## Statement of Work
 
-You can find the full job statement [here](JS Statement-england.pdf o Statement-spanish.pdf).
+You can find the full job statement [here](JS Statement-england.pdf / Declaración JS-england o Statement-spanish.pdf / Declaración JS-español).
 
 It is important to note that this is a fictional project used for educational and practice purposes.
 
