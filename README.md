@@ -1,6 +1,6 @@
 ## Statement of Work
 
-You can find the full job statement [here](JS Statement.pdf).
+You can find the full job statement [here](Enunciado JS.pdf).
 
 It is important to note that this is a fictional project used for educational and practice purposes.
 
