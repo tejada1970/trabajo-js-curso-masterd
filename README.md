@@ -1,8 +1,8 @@
 ## Statement of work
 
-You can find the complete statement of this work, in the last point of this document with the title (FINAL WORK: JAVASCRIPT).
+**You can find the complete statement of this work, in the last point of this document with the title (FINAL WORK: JAVASCRIPT).**
 
-'It is important to note that this is a fictional project used for educational and practice purposes'
+**'It is important to note that this is a fictional project used for educational and practice purposes'**
 
 ## Characteristics
 
@@ -67,13 +67,13 @@ In this first part of the form, the user's contact information will be requested
 
 Contact details must be validated using JavaScript to meet the following criteria:
 
-Name: It may only contain letters and will have a maximum length of 15 characters.
+- Name: It may only contain letters and will have a maximum length of 15 characters.
 
-Surnames: It may only contain letters and will have a maximum length of 40 characters.
+- Surnames: It may only contain letters and will have a maximum length of 40 characters.
 
-Contact telephone number: It may only contain numbers and will have a maximum length of 9 digits.
+- Contact telephone number: It may only contain numbers and will have a maximum length of 9 digits.
 
-Email: Must meet email standards. Example: nnnnn_nnn@zzzzz.xxx
+- Email: Must meet email standards. Example: nnnnn_nnn@zzzzz.xxx
 
 **2. Budget:**
 
@@ -81,15 +81,15 @@ In this second part of the form, the user will be asked to choose between severa
 
 The options should be:
 
-Product: The relevant HTML tags must be used that allow the user to choose between several options. Each option will have an associated price. A minimum of three options must be entered.
+- Product: The relevant HTML tags must be used that allow the user to choose between several options. Each option will have an associated price. A minimum of three options must be entered.
 
-Term: An HTML tag (numeric input) must be used that allows the user to indicate the number of months or days in which they wish to receive the product. Depending on the value entered, a discount will be applied to the final budget.
+- Term: An HTML tag (numeric input) must be used that allows the user to indicate the number of months or days in which they wish to receive the product. Depending on the value entered, a discount will be applied to the final budget.
 
-Extras: Several HTML tags must be used that allow the user to mark all the extra options that they want to add to the chosen product. Each option selected will increase the final budget by a certain amount.
+- Extras: Several HTML tags must be used that allow the user to mark all the extra options that they want to add to the chosen product. Each option selected will increase the final budget by a certain amount.
 
-Budget: The relevant HTML tags should be used to show the user the final budget, based on the choices they have made. This field must be updated with any changes made to the product choices, months and extras, without using buttons or refreshing the page.
+- Budget: The relevant HTML tags should be used to show the user the final budget, based on the choices they have made. This field must be updated with any changes made to the product choices, months and extras, without using buttons or refreshing the page.
   
-Conditions and submission of the quote: In this section you must use an HTML tag that allows you to create an option to accept the privacy conditions of the page and a button that allows you to send the form. Additionally, a button can be created that allows the form to be reset.
+- Conditions and submission of the quote: In this section you must use an HTML tag that allows you to create an option to accept the privacy conditions of the page and a button that allows you to send the form. Additionally, a button can be created that allows the form to be reset.
 Please note that in order to send the form, all fields must be completed (including the acceptance of the conditions) and all data in the contact section must be validated.
 
 **o A contact page that will be called contact.html:**
