@@ -6,9 +6,9 @@
 
 ## Characteristics
 
-Does not use a database: It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
+**Does not use a database**: It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
 
-Server requirements: For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
+**Server requirements**: For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
 
 ## Download and Configuration in Local Environment
 
@@ -106,11 +106,11 @@ You can select one color and its complementary color or a maximum of three color
 
 In addition, each page of the site must contain the following elements:
 
-- **Page name or logo:**
+**Page name or logo:**
 
 It should be located at the top of the pages or in the navigation bar.
 
-- **Navigation bar:**
+**Navigation bar:**
 
 It should be located at the top of the pages that make up the website.
 
@@ -118,7 +118,7 @@ This bar must highlight, through the use of CSS styles, the menu page where the 
 
 That is, although the user can scroll vertically, the navigation bar must remain fixed at the top and always remain in view.
 
-- **Footer:**
+**Footer:**
 
 The footer will contain the logos of various social networks, the company address and the legal notice.
 
