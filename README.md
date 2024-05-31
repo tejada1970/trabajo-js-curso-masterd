@@ -51,15 +51,15 @@ Includes: A dynamic and modern gallery.
 
 **3. Budget Page**
 
-    Form composed of two parts:
+Form composed of two parts:
 
-    **Contact details:**
+**Contact details:**
 
-    Includes: A section for the user's personal data.
+Includes: A section for the user's personal data.
 
-    **Budget:**
+**Budget:**
 
-    It includes: A section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
+It includes: A section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
 
 **4. Contact Page**
 
