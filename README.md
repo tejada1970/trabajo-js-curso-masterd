@@ -45,11 +45,11 @@ Create a complete website for a fictitious company, using the technologies learn
 
 - **Gallery Page:** Includes a dynamic and modern gallery.
 
-- **Budget Page:** Form composed of two parts.
+- **Budget Page:** Form composed of two parts:
 
-1. **Contact details:** Includes a section for the user's personal data.
+    1. **Contact details:** Includes a section for the user's personal data.
 
-2. **Budget:** It includes a section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
+    2. **Budget:** It includes a section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
 
 - **Contact Page:** Includes company data and an interactive map (OpenStreetMaps), with a route traced from the customer's location to the business's location.
 
