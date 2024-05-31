@@ -1,6 +1,6 @@
 ## Statement of work
 
-**You can find the complete statement of this work, in the last point of this document with the title (FINAL WORK: JAVASCRIPT).**
+**You can find the complete statement of this work, in the last point of this document with the title (DESCRIPTION-WORK-JAVASCRIPT).**
 
 **'It is important to note that this is a fictional project used for educational and practice purposes'**
 
@@ -37,37 +37,35 @@ Open your web browser and navigate to (localhost/put here the folder name of the
 
 ## Objective of the work:
 
-Create a complete website for a fictitious company, using the technologies learned so far.
+Create a complete website for a fictitious company, using the technologies learned to date.
 
 ## Website composition:
 
-**o Homepage**
+**1. Homepage**
 
 Website front page with several sections, including a section for news uploaded from an external file.
 
-**o Gallery page**
+**2. Gallery Page**
 
 Includes: A dynamic and modern gallery.
 
-**o Budget page**
+**3. Budget Page**
 
-Form composed of two parts:
+    Form composed of two parts:
 
-**Contact details:**
+    **Contact details:**
 
-Includes: A section for the user's personal data.
+    Includes: A section for the user's personal data.
 
-**Budget:**
+    **Budget:**
 
-It includes: A section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
+    It includes: A section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
 
-**o Contact page**
+**4. Contact Page**
 
 Includes: Company data and an interactive map (OpenStreetMaps), with a route traced from the customer's location to the business's location.
 
 ### Styles and other elements:
-
-The site must have an attractive and current style.
 
 Attractive and modern design.
 
