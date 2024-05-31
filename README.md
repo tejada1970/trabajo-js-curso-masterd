@@ -1,4 +1,4 @@
-## Statement of work
+## Work description
 
 **You can find the complete statement of this work, in the last point of this document with the title (DESCRIPTION-WORK-JAVASCRIPT).**
 
