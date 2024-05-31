@@ -41,34 +41,22 @@ Create a complete website for a fictitious company, using the technologies learn
 
 ## Website composition:
 
-**1. Homepage**
+- **Homepage:** Website front page with several sections, including a section for news uploaded from an external file.
 
-Website front page with several sections, including a section for news uploaded from an external file.
+- **Gallery Page:** Includes a dynamic and modern gallery.
 
-**2. Gallery Page**
+- **Budget Page:** Form composed of two parts.
 
-Includes: A dynamic and modern gallery.
+1. **Contact details:** Includes a section for the user's personal data.
 
-**3. Budget Page**
+2. **Budget:** It includes a section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
 
-Form composed of two parts:
-
-**Contact details:**
-
-Includes: A section for the user's personal data.
-
-**Budget:**
-
-It includes: A section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
-
-**4. Contact Page**
-
-Includes: Company data and an interactive map (OpenStreetMaps), with a route traced from the customer's location to the business's location.
+- **Contact Page:** Includes company data and an interactive map (OpenStreetMaps), with a route traced from the customer's location to the business's location.
 
 ### Styles and other elements:
 
-Attractive and modern design.
+- Attractive and modern design.
 
-Fixed navigation bar with name and logo, highlighting the current section.
+- Fixed navigation bar with name and logo, highlighting the current section.
 
-Footer with social media logos, company address and legal notice.
+- Footer with social media logos, company address and legal notice.
