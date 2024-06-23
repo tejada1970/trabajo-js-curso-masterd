@@ -28,7 +28,7 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
     2. **Presupuesto:** Incluye una sección para elegir un producto asociado a un precio, un tiempo de entrega con descuento según el tiempo seleccionado y opciones para elegir extras para los productos que aumentarán el presupuesto. El presupuesto final se actualiza dinámicamente según las opciones elegidas.
 
-- **Página de Contacto:** Incluye datos de la empresa fictia y un mapa interactivo (OpenStreetMaps), con una ruta trazada desde la ubicación del cliente hasta la ubicación del negocio 'ficticios'.
+- **Página de Contacto:** Incluye datos de la empresa ficticia y un mapa interactivo (OpenStreetMaps), con una ruta trazada desde la ubicación del cliente hasta la ubicación del negocio 'ficticios'.
 
 ### Estilos y otros elementos:
 
