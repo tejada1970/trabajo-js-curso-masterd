@@ -1,62 +1,39 @@
-## Work description
+## License
 
-**You can find the complete statement of this work, in the last point of this document with the title (DESCRIPTION-WORK-JAVASCRIPT).**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**'It is important to note that this is a fictional project used for educational and practice purposes'**
+## Características
 
-## Characteristics
+**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envio de formulario.
 
-**Does not use a database**: It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
+**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es fundamental para que determinadas funciones, como la sección de noticias que utiliza solicitudes, se puedan mostrar correctamente.
 
-**Server requirements**: For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
+**Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
 
-## Download and Configuration in Local Environment
+# Descripción
 
-**Requirements:**
-Have installed on your PC: A local server of your choice (XAMPP is recommended).
+## Objetivo del trabajo:
 
-**Steps:**
+Crear un sitio web completo para una empresa ficticia, utilizando las tecnologías aprendidas hasta la fecha.
 
-1. **Download the Project:**
-Click the "Code" button in this repository and select "Download ZIP".
+## Composición del sitio web:
 
-2. **Project Extraction:**
-Create a new folder on your desktop.
-Go to the downloads folder and drag the downloaded ZIP file to the new folder to extract it.
+- **Página de inicio:** Portada del sitio web con varias secciones, incluida una sección de noticias subidas desde un archivo externo.
 
-3. **Location on Local Server:**
-Copy the extracted project folder and paste it into the folder on your local server. For example, in XAMPP, the folder is usually xampp/htdocs.
+- **Página de Galería:** Incluye una galería dinámica y moderna.
 
-4. **Start Local Server:**
-On Windows, access the XAMPP Control Panel from the start menu (Start > XAMPP > XAMPP Control Panel) and run it as administrator to ensure you have the necessary permissions. Start Apache from the control panel by pressing Start.
+- **Página de Presupuesto:** Formulario compuesto de dos partes:
 
-5. **Project View:**
-Open your web browser and navigate to (localhost/put here the folder name of the extracted project), this will load the project in your browser and you can interact with it locally. Once the project has been displayed, the icons at the top right for navigation between sections of the home page may not initially be displayed. To do this, once the project is displayed, update and refresh the browser first and the icons will appear in their place. This is a small problem that I have to solve when I can.
+    1. **Datos de contacto:** Incluye un apartado para los datos personales del usuario.
 
-# DESCRIPTION-WORK-JAVASCRIPT 
+    2. **Presupuesto:** Incluye una sección para elegir un producto asociado a un precio, un tiempo de entrega con descuento según el tiempo seleccionado y opciones para elegir extras para los productos que aumentarán el presupuesto. El presupuesto final se actualiza dinámicamente según las opciones elegidas.
 
-## Objective of the work:
+- **Página de Contacto:** Incluye datos de la empresa fictia y un mapa interactivo (OpenStreetMaps), con una ruta trazada desde la ubicación del cliente hasta la ubicación del negocio 'ficticios'.
 
-Create a complete website for a fictitious company, using the technologies learned to date.
+### Estilos y otros elementos:
 
-## Website composition:
+- Diseño atractivo y moderno.
 
-- **Homepage:** Website front page with several sections, including a section for news uploaded from an external file.
+- Barra de navegación fija con nombre y logo, resaltando la sección actual.
 
-- **Gallery Page:** Includes a dynamic and modern gallery.
-
-- **Budget Page:** Form composed of two parts:
-
-    1. **Contact details:** Includes a section for the user's personal data.
-
-    2. **Budget:** It includes a section to choose a product associated with a price, a discounted delivery time according to the selected time, and options to choose extras for the products that will increase the budget. The final budget is dynamically updated according to the options chosen.
-
-- **Contact Page:** Includes company data and an interactive map (OpenStreetMaps), with a route traced from the customer's location to the business's location.
-
-### Styles and other elements:
-
-- Attractive and modern design.
-
-- Fixed navigation bar with name and logo, highlighting the current section.
-
-- Footer with social media logos, company address and legal notice.
+- Pie de página con logos de redes sociales, dirección de la empresa y aviso legal.
