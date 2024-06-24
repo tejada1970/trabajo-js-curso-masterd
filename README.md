@@ -34,6 +34,6 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
 - Diseño atractivo y moderno.
 
-- Barra de navegación fija con nombre y logo, resaltando la sección actual.
+- Barra de navegación fija con nombre, logo, enlaces que resaltan la página actual e iconos para navegar entre las secciones de la página de inicio resaltando la sección actual.
 
-- Pie de página con logos de redes sociales, dirección de la empresa y aviso legal.
+- Pie de página con logos de redes sociales, dirección de la empresa ficticia y simulación de aviso legal.
