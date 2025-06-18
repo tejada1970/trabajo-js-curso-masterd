@@ -2,7 +2,7 @@
 
 Trabajo obligatorio del Curso Superior en Programación de Páginas Web — Instituto Tecnológico MasterD.
 
-> ⚠️ **Nota:** Este proyecto ha sido desarrollado únicamente con fines educativos y prácticos.
+> 📁 Este proyecto ha sido desarrollado únicamente con fines educativos y prácticos.
 
 ---
 
@@ -48,7 +48,7 @@ Toda la información necesaria sobre cómo clonar y ejecutar este proyecto en un
 
 - 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp-windows.md)
 
-> ⚠️ Recuerda copiar el enlace de la URL de este repositorio, disponible en: `<> Code / HTTPS`, que te servirá para reemplazar el enlace de ejemplo en la guía para clonar el proyecto.
+> 💡 Recuerda copiar el enlace de la URL de este repositorio, disponible en: `<> Code / HTTPS`, que te servirá para reemplazar el enlace de ejemplo en la guía para clonar el proyecto.
 
 ---
 
