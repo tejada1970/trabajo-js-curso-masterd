@@ -3,21 +3,49 @@
 *************************************************************/
 .container_contacto{
     width: 90%; height: 100%; margin: 2% auto; padding: 1.5%;
-    flex-direction: column-reverse; gap: 5%; font-family: monospace, sans-serif;
-    font-weight: bold; line-height: 3rem;
+    font-family: monospace, sans-serif; font-weight: bold; 
+    line-height: 3rem; position: relative; z-index: 0; overflow: hidden;
 }
-.container_datos {flex-direction: column; margin-bottom: 5%; width: 100%; color: rgb(0, 0, 0);}
+.container_datos {position: relative; text-align: center; margin-bottom: 5%; width: 100%; color: rgb(0, 0, 0);}
 
 .container_map {width: 100%; height: 28.125rem; color: rgb(0, 0, 0);}
 
-#map {height: 25rem;}
+#map {height: 25rem; position: relative; z-index: 1}
 
-.container_datos p {text-align: center;}
+/* Controla que los controles de zoom no se salgan ni superpongan */
+.leaflet-control-container {
+    z-index: 400 !important; /* controlado pero no dominante */
+}
+
+/* Ajusta posición y evita que se superponga */
+.leaflet-top,
+.leaflet-bottom {
+    pointer-events: auto; /* Asegura interacción */
+}
+
+/* Si tienes un panel de control de rutas */
+.leaflet-routing-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: sans-serif;
+    max-width: 300px;
+    z-index: 401 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Evita que se superponga a otros componentes si está fuera del mapa */
+.leaflet-routing-container-hide {
+    display: none !important;
+}
 
 /*************************************************************
 ***************** MEDIA QUERYS (responsive) ******************
 *************************************************************/
 /* @media 1024px */
-@media screen and (min-width: 1024px){
-    .container_contacto{justify-content: space-between; flex-direction: row;}
+@media screen and (min-width: 1400px){
+    .container_contacto{display: flex; justify-content: space-between; flex-direction: row-reverse; gap: 3%;}
 }

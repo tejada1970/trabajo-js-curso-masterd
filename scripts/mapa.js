@@ -44,6 +44,10 @@ function sucess(position) {
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
 
+  /* Ubicación de Alzira */
+  // var latitude = 39.15224816712692;
+  // var longitude = -0.4315280432444942;
+
   /* este alert, es para comprobar las coordenadas que obtengo de la posicion actual */
   // alert(latitude + ' ' + longitude);
 
@@ -110,7 +114,7 @@ function sucess(position) {
   var control = L.Routing.control({
     waypoints: [
       L.latLng(latitude, longitude),
-      L.latLng(38.99998, -0.16316)
+      L.latLng(38.99998, -0.16316) // Ubicación de Gandía
     ],
     language: 'es',
     createMarker: function (i, wp, nWps) {
