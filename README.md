@@ -12,7 +12,9 @@ Trabajo obligatorio del Curso Superior en Programación de Páginas Web — Inst
 
 Crear un sitio web completo para una empresa ficticia, utilizando las tecnologías aprendidas hasta la fecha.
 
-#### 🧱 Composición del sitio web
+---
+
+### 🧱 Composición del sitio web
 
 * **Página de inicio:** Portada del sitio web con varias secciones, incluida una sección de noticias subidas desde un archivo externo.
 
@@ -26,7 +28,9 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
 * **Página de Contacto:** Incluye datos de la empresa ficticia y un mapa interactivo (OpenStreetMaps), con una ruta trazada desde la ubicación del cliente hasta la ubicación del negocio 'ficticios'.
 
-#### 🎨 Estilos y otros elementos
+---
+
+### 🎨 Estilos y otros elementos
 
 * Diseño atractivo y moderno.
 * Barra de navegación fija con nombre, logo, enlaces que resaltan la página actual e iconos para navegar entre las secciones de la página de inicio resaltando la sección actual.
@@ -36,7 +40,7 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
 ## ✨ Características
 
-🔒 Es importante señalar que este proyecto no cuenta con **base de datos**. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envío de formulario.
+📂 Es importante señalar que este proyecto no cuenta con **base de datos**. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envío de formulario.
 
 🌐 Para su correcto funcionamiento el proyecto debe ejecutarse desde un **servidor**. Por ejemplo, se recomienda utilizar **XAMPP** para alojar la aplicación. Esto es fundamental para que determinadas funciones, como la sección de noticias que utiliza solicitudes, se puedan mostrar correctamente.
 
