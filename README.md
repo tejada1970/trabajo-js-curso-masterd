@@ -36,9 +36,15 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
 ## ✨ Características
 
+🌐 Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Se recomienda utilizar (**XAMPP**).
+
 📂 Es importante señalar que este proyecto no cuenta con **base de datos**. Los datos recopilados en el formulario de **Presupuesto** no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envío de formulario.
 
-🌐 Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Se recomienda utilizar (**XAMPP**).
+### 📝 Observaciones
+
+Sobre cumplir con el objetivo que se pedía en este trabajo y funcionar todo correctamente, la arquitectura general del proyecto, **no está optimizada ni diseñada para usarse como base en entornos reales. No se recomienda utilizarla tal cual.**
+
+No obstante, parte del código fuente puede resultar **útil e interesante** como referencia. Se pueden reutilizar fragmentos y adaptarlos a desarrollos personales o profesionales, según las necesidades de cada caso.
 
 ---
 
