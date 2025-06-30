@@ -36,15 +36,16 @@ Crear un sitio web completo para una empresa ficticia, utilizando las tecnologí
 
 ## ✨ Características
 
-🌐 Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Se recomienda utilizar (**XAMPP**).
+- 🌐 Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor local. Se recomienda el uso de **XAMPP**.
+- 📂 Este proyecto **no utiliza base de datos**. Los datos introducidos en el formulario de **Presupuesto** no se almacenan de forma persistente. Se trata únicamente de una simulación de envío de formulario.
 
-📂 Es importante señalar que este proyecto no cuenta con **base de datos**. Los datos recopilados en el formulario de **Presupuesto** no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envío de formulario.
+---
 
-### 📝 Observaciones
+## 📝 Observaciones
 
-Sobre cumplir con el objetivo que se pedía en este trabajo y funcionar todo correctamente, la arquitectura general del proyecto, **no está optimizada ni diseñada para usarse como base en entornos reales. No se recomienda utilizarla tal cual.**
+Sobre cumplir con el objetivo que se pedía en este trabajo y funcionar todo correctamente, la arquitectura general del proyecto, **no está optimizada ni diseñada para usarse como base en entornos de producción. No se recomienda utilizarla tal cual.**
 
-No obstante, parte del código fuente puede resultar **útil e interesante** como referencia. Se pueden reutilizar fragmentos y adaptarlos a desarrollos personales o profesionales, según las necesidades de cada caso.
+No obstante, parte del código fuente puede resultar **útil como referencia**. Es posible reutilizar fragmentos y adaptarlos a desarrollos personales o profesionales, según las necesidades.
 
 ---
 
@@ -58,6 +59,6 @@ En esta guía, encontrarás toda la información necesaria sobre cómo clonar y 
 
 ---
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
