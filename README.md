@@ -59,6 +59,6 @@ En esta guía, encontrarás toda la información necesaria sobre cómo clonar y 
 
 ---
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
