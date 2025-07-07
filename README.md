@@ -49,6 +49,24 @@ No obstante, parte del código fuente puede resultar **útil como referencia**. 
 
 ---
 
+## 🔧 Crear un proyecto estático (desde cero)
+
+En esta guía, encontrarás toda la información necesaria sobre cómo crear un nuevo proyecto estático:
+
+- 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
+
+---
+
+## 📁 Crear un repositorio en GitHub y subir un proyecto local (desde cero)
+
+Crear un repositorio en **GitHub** y subir tu proyecto local permite mantener tu código seguro, respaldado y accesible desde cualquier lugar. Además, facilita el trabajo colaborativo, el seguimiento de cambios, y la integración con herramientas de desarrollo modernas como CI/CD, despliegues automáticos y más.
+
+En esta guía, encontrarás toda la información necesaria sobre cómo crear un repositorio en **GitHub** y subir tu proyecto local:
+
+- 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
+
+---
+
 ## 📥 ¿Cómo clonar y ejecutar este proyecto?
 
 En esta guía, encontrarás toda la información necesaria sobre cómo clonar y ejecutar este proyecto en un entorno local con **XAMPP**:
