@@ -4,6 +4,10 @@ Trabajo obligatorio del Curso Superior en Programación de Páginas Web — Inst
 
 > 📁 Este proyecto ha sido desarrollado únicamente con fines educativos y prácticos.
 
+> 📚 Incluye guías paso a paso.
+
+> 🗓 Última actualización: 08-07-2025.
+
 ---
 
 ## 📝 Descripción
